@@ -1,0 +1,120 @@
+/* ========About stylee ======== */
+
+.home {
+   padding-bottom: 0;
+   
+   background-image: url(../imgs/base.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top;
+   position: relative;
+   height: 390px;
+}
+@media (min-width: 1199px) {
+    .fixed2 {
+        height: 70%;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .fixed2 {
+        height: 76%;
+    }
+}
+.home .static-home .readMore {
+    top: 60%;
+}
+
+ 
+/* about-l-h-f */
+.about-l-h-f {
+    overflow: hidden;
+    padding-top: 50px;
+}
+.about-l-h-f .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.about-l-h-f .row {
+    justify-content: space-between;
+}
+.col-m-b {
+    margin-bottom: 100px;
+}
+.about-l-h-f .about_-img img {
+    max-width: 100%;
+}
+.about-l-h-f .col-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-l-h-f .about_-info-r {
+    padding-right: 100px;
+}
+.about-l-h-f .about_-info-l {
+    padding-left: 100px;
+}
+
+.about-l-h-f .about_-info h4 {
+    font-family: 'b-n';
+    font-size: 60px;
+    color: var(--mainColor);
+}
+.about-l-h-f .about_-info .p-details {
+    font-family: 'o-s';
+    font-size: 22px;
+    color: #000000;
+    text-align: justify;
+     line-height: 1.556;
+    }
+    @media (max-width: 992px){
+        .about-l-h-f .about_-info-r
+         {
+            padding-right: 0;
+        }
+        .about-l-h-f .about_-info-l {
+            padding-left: 0;
+        }
+        .about-l-h-f .about_-info h4 {
+            font-size: 40px;
+        }
+        .fixed2 {
+            height: 90%;
+        }
+    }
+    @media (max-width: 768px){
+        .about-l-h-f .about_-info h4,
+        .about-l-h-f .about_-info .p-details {
+            text-align: center;
+        }
+        .fixed2 {
+            height: 105%;
+        }
+        .about-l-h-f .row {
+            text-align: text-center;
+        }
+    }
+    @media (max-width: 682px){
+        .fixed2 {
+            height: 117%;
+        }
+    }
+    @media (max-width: 601px){
+        .fixed2 {
+            height: 130%;
+        }
+    }
+    @media (max-width: 551px){
+        .fixed2 {
+            height: 145%;
+        }
+    }
+    @media (max-width: 467px){
+        .fixed2 {
+            height: 170%;
+        }
+    }
+    .footer-section {
+        margin-top: 0;
+    }
+    
